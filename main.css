@@ -1,0 +1,247 @@
+
+ /****  
+    font-family: 'Charmonman', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Faster One', cursive;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Megrim', cursive;
+***/
+
+/**BASE Styles**/
+
+body {
+	background-color: #83a9b2;
+	color: darkgray;
+	padding: 15px;
+	font-size: 36px;
+	width: 1100px;
+	margin: auto;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+/***GREETING styles**/
+
+
+.greeting {
+	height: 700px;
+	width: 1200px;
+	background: url('https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d73202d9eefa6a02f01891095be79cd0&auto=format&fit=crop&w=400&q=60.png') no-repeat;
+}
+
+.greeting img {
+	width: 100%;
+}
+.greeting h1 {
+	padding-top: 50px;
+	margin-left: 150px;
+	color: #003b42;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 2em;
+}	
+
+.greeting h2 {
+	padding: 15px;
+	margin-left: 300px;
+	color: #003b42;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.greeting p {
+	float: right;
+    height: 30%;
+	width: 45%;
+	margin-top: 25px;
+	margin-right: 125px;
+    margin-bottom: 165px;
+	font-size: .75em;
+	padding: 15px 25px 15px 25px;
+	text-align: right;
+	background: #e5e9e8;
+	font-family: 'Nanum Gothic Coding', monospace;
+  
+}	
+
+.greeting a {
+
+	color: darkgrey;
+}
+
+/***PORTFOLIO styles**/
+
+.portfolio  {
+	height: 1550px;
+	background-color: #e5e9e8;
+}
+
+.half-width-text .portfolio-text { 
+  height: 25%;
+  width: 40%;
+  background: #e5e9e8;
+  padding: 25px;
+  float: right;
+  margin-right: 20px;
+}
+
+.portfolio h2 {
+	color: #003b42;
+	padding: 35px;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.portfolio h3 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: #003b42;
+  font-size: .75em;
+  text-decoration: bold;
+}
+
+.portfolio h4 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: .55em;
+  text-decoration: underline;
+}
+
+.portfolio p {
+  font-size: .65em;
+  font-family: 'Nanum Gothic Coding', monospace;
+  width: 450px;
+  /*float: right;*/
+}
+
+.half-width-img {
+  height: 300px;
+  width: 475px;
+  margin: 20px 0px 0px 20px;
+  padding: 20px 0px 0px 20px;
+}
+
+/*.portfolio-img {
+  height: 25px;
+  width: 35px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+} */
+
+figure img {
+  	border: solid 2px #83a9b2;
+}
+
+/***ABOUT styles**/
+
+.about {
+	height: 750px;
+	background-color: #83a9b2;
+	font-family: 'Nanum Gothic Coding', monospace;
+
+}
+.about h2 {
+	margin: auto;
+	padding: 35px;
+	color: #003b42;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.about p {
+	font-size: .65em;
+	float: right;
+	width: 65%;
+	padding: 15px 25px 5px 25px;
+	color: #003b42;
+}
+
+.headshot-img {
+	height: 450px;
+	width: 300px;
+	border: 12px solid #ffffff;
+	float: left;
+	margin-top: 31px;
+
+}
+	
+/***CONTACT styles**/
+
+.contact {
+	height: 400px;
+	background-color: #e5e9e8;
+
+}
+
+.contact h2 {	
+	padding-top: 40px;
+	color: #003b42;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.contact h4 {
+	color: #003b42;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: .55em;
+}
+
+.contact ul {
+  list-style: none;
+  text-decoration: none;
+  margin: auto; 
+}
+
+#hire-me {
+	width: 33.3%;
+	padding: 15px 25px 15px 25px;
+	margin: auto;
+}
+
+#follow-me {
+	width: 33.3%;
+	float: left;
+	padding: 15px 25px 15px 25px;
+	margin: auto;
+
+}
+
+#follow-me ul li{
+	display: inline;
+	padding: 5px;
+
+}
+
+#fun-facts {
+	width: 33.3%;
+	float: left;
+	padding: 15px 25px 15px 25px;
+	margin: auto;
+
+
+}
+
+#fun-facts ul li {
+	display: inline;
+	padding: 5px;
+
+}
+
+.icon-p {
+	font-size: .45em;
+	float: right;
+}
+
+/****FOOTER Styles****/
+
+.footer {
+	height: 200px;
+	margin-top: 30px;
+	padding-top: 45px;
+}
+
+.unsplash-logo p {
+	font-size: .25em;
+}
+
+
+
